@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./options.css" />
-    <title>Document</title>
+    <title>Pomodoro Timer Extension Options</title>
   </head>
   <body>
-    <h1>Options page</h1>
+    <h1>Pomodoro Timer Options</h1>
+    <label for="time-option"> Default Time in Minutes(1 - 60): </label>
+    <input id="time-option" type="number" min="1" max="60" value="25" />
+    <button id="save-btn" type="button">Save Options</button>
     <script src="./options.js"></script>
   </body>
 </html>
